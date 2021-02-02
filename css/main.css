@@ -27,8 +27,9 @@
 {
 	width: 1080px;
 	margin: 0 auto;
-	text-align: center;
+	/*text-align: center;*/
 	margin-bottom: 20px
+	background-color: #D5D5D5;
 
 }
 
@@ -37,6 +38,9 @@
 	font-family: open_sansbold;
 	margin-bottom: 5px;
 	margin-top: 20px;
+	color: #e0a31f;
+	text-align: center;
+	font-size: 38px;
 }
 
 .introduction p
@@ -49,19 +53,25 @@
 {
 	font-family: open_sansbold;
 	margin-bottom: 10px;
-	margin-top: 10px;	
+	margin-top: 10px;
+	color: #e0a31f;
+	text-align: center;
+	font-size: 38px;
 }
 
 .greenharpoon p
 {
 	font-family: open_sansregular;
 	line-height: 20px;
+	text-align: left;
+	margin-right: 250px;
 }
 
 .greenharpoon img
 {
 	border-radius: 10px;
 	border: 5px solid #555;
+	float: right;
 }
 
 .brewers h1
@@ -69,25 +79,37 @@
 	font-family: open_sansbold;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	color: #e0a31f;
+	text-align: center;
+	font-size: 38px;
 }
 
 .brewers p
 {
 	font-family: open_sansregular;
 	line-height: 20px;
+	margin-left: 230px;
+	margin-top: 30px;
 }
 
 .brewers img
 {
 	border-radius: 10px;
 	border: 5px solid #555;
+	float: left;
+	margin-bottom: 60px;
 }
+
 
 .wolverine h1
 {
 	font-family: open_sansbold;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	color: #e0a31f;
+	text-align: center;
+	font-size: 38px;
+	margin-top: 30px;
 
 }
 
@@ -95,12 +117,17 @@
 {
 	font-family: open_sansregular;
 	line-height: 20px;
+	margin-left: 390px;
 }
 
 .wolverine img
 {
 	border-radius: 10px;
 	border: 5px solid #555;
+	float: left;
+	/*height: 25%
+	width: 50%;*/
+
 }
 
 
@@ -109,16 +136,25 @@
 	font-family: open_sansbold;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	color: #e0a31f;
+	text-align: center;
+	font-size: 38px;
+	margin-top: 30px;
+
 }
 
 .conclusion p
 {
 	font-family: open_sansregular;
 	line-height: 20px;
+	text-align: center;
 }
 
 .conclusion img
 {
 	border-radius: 10px;
 	border: 5px solid #555;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
